@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+/*#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <algorithm>
 #include <vector>
@@ -45,3 +45,4 @@ int main(void) {
 		printf("%d\n",doAlgo()+1);
 	}
 }
+*/

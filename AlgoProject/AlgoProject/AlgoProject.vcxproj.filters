@@ -18,5 +18,17 @@
     <ClCompile Include="1946.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3805.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="swexpert_pizza.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fishingking.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="babyshark.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
