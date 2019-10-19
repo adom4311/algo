@@ -119,9 +119,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="17471_gerrymandering.cpp" />
+    <ClCompile Include="17472_makebridge2_BOJ.cpp" />
     <ClCompile Include="1946.cpp" />
     <ClCompile Include="3805.cpp" />
     <ClCompile Include="babyshark.cpp" />
+    <ClCompile Include="expert_cheese_thief.cpp" />
     <ClCompile Include="fishingking.cpp" />
     <ClCompile Include="swexpert_pizza.cpp" />
   </ItemGroup>

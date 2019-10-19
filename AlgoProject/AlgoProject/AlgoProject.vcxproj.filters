@@ -30,5 +30,14 @@
     <ClCompile Include="babyshark.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="expert_cheese_thief.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17471_gerrymandering.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17472_makebridge2_BOJ.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

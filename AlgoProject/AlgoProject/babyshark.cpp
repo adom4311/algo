@@ -1,7 +1,8 @@
-#define _CRT_SECURE_NO_WARNINGS
+/*#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <algorithm>
 #include <vector>
+#include <stdlib.h>
 
 using namespace std;
 
@@ -9,6 +10,7 @@ int N;
 vector <vector <int>> shark_pool;
 int sharksize = 2;
 pair <int, int> babyshark;
+int minx, miny;
 typedef struct {
 	int size;
 	int x, y;
@@ -29,6 +31,16 @@ void find_closest_Fish() {
 	int mindist = -1;
 	for (int i = 0; i < food.size(); i++) {
 		//find shortest food
+		if (food[i].size == 0 || food[i].size > sharksize) {
+			continue;
+		}
+		int dist = abs(food[i].x - babyshark.first) + abs(food[i].y - babyshark.second);
+		if (mindist < 0 || mindist>dist) {
+			mindist = dist;
+			minx = food[i].x;
+			miny = food[i].y;
+		}
+		
 	}
 	//if no food that shark can eat return -1;
 }
@@ -66,4 +78,4 @@ int main(void) {
 	
 
 	return 0;
-}
+}*/
